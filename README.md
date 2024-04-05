@@ -76,7 +76,9 @@ Como dije anteriormente, chau useMemo, chau useCallback, chau forwardRef y chau 
 
 Se utiliza junto con promesas, código asíncrono y context.
 
+```
 const value = use(fetchData());
+```
 
 Ya no tenemos que utilizar useContext(), ahora directamente se utiliza use(TuContexto).
 
