@@ -86,11 +86,15 @@ Ya no tenemos que utilizar useContext(), ahora directamente se utiliza use(TuCon
 
 Provee información sobre el estado del submit de un formulario.
 
-const {pending, data, method, action } = useFormStatus();
+```
+const { pending, data, method, action } = useFormStatus();
+```
 
 o
 
-const {pending, data, method, action } = useFormStatus();
+```
+const { status } = useFormStatus();
+```
 
 MUY similar a react-hook-form.
 
