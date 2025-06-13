@@ -107,7 +107,7 @@ Antes creíamos que solo nos permitía actualizar el estado del formulario segú
 const [state, formAction] = useFormState(fn, initialState, permalink?);
 ```
 
-Pero la verdad es que es mucho más que eso, la idea principal era revolver el estado de la ACCIÓN utilizada en el hook, envolviéndola y retornando una accion que pueda ser trackeada y así obtener el último valor retornado por dicha acción. De esta manera vemos que useFormState, no necesita ser utilizado siquiera en un formulario!.
+Pero la verdad es que es mucho más que eso, la idea principal era devolver el estado de la ACCIÓN utilizada en el hook, envolviéndola y retornando una accion que pueda ser trackeada y así obtener el último valor retornado por dicha acción. De esta manera vemos que useFormState, no necesita ser utilizado siquiera en un formulario!.
 
 Entonces ahora los cambios son:
 
